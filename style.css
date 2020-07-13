@@ -1,0 +1,284 @@
+/* Enter Your Custom CSS Here */
+
+.lbl-post-archive-sidebar-list h2.widgettitle {
+	text-align: center;
+}
+
+/****** Search Icon in Desktop Menu ******/ 
+/* Color of Icon */
+.fl-menu .fl-page-nav-search .fa-search {
+	color: #111111;
+}
+
+.lblee .fl-page-nav-search form {
+	border-top: 3px solid #444444;
+}
+/****** ** ******/ 
+
+.lblee .facetwp-btn {
+	display: none;
+}
+
+.lblee .lbl-facetwp-sidebar {
+	font-size: 14px;
+}
+
+.lblee .fl-menu .fl-page-nav-search .fa-search:hover {
+	color: #aaaaaa;
+}
+
+/* Positions the drop-down search form */ 
+.fl-menu .fl-page-nav-search FORM {
+ 	margin-top: 20px;
+}
+
+.lbl-shop-item-wrap {
+	background: #f6f6f6;
+	border: 1px solid #e4e4e4;
+	padding: 9px;
+}
+
+.lblee .lbl-shop-item-caption p {
+	font-size: 11px;
+	line-height: 13px;
+	padding: 4px 2px 0px 2px;
+	background: #f6f6f6;
+	text-align: center;
+	margin-bottom: 0;
+	color: #858585;
+}
+
+/* Remove border from BB posts - theme css */
+.lbl-shop-items .fl-post-grid-post,
+.fl-post-feed-post {
+	border: none;
+}
+
+/* Single post navigation on Single Posts Themer Layout */
+.post-navigation {
+	font-size: 16px;
+}
+
+.lbl-featured-category-post .fl-post-feed-more {
+    color: #db92d4;
+		margin-top: 0;
+}
+
+/* 'Shop The Post' Title with HR */
+.lbl-shop-the-post-title-wrapper {
+		background: 0 0;
+		border: none;
+		box-sizing: border-box;
+		margin: 0;
+		max-width: 100%;
+		/*opacity: 0; will not work on mobile, so disabled it*/
+		padding: 26px 0 0;
+		position: relative;
+		width: 100%;
+		-webkit-animation: ltk-widget-modal-fade-in .5s ease-in-out forwards .5s;
+		-moz-animation: ltk-widget-modal-fade-in .5s ease-in-out forwards .5s;
+		animation: ltk-widget-modal-fade-in .5s ease-in-out forwards .5s;
+}
+
+.lbl-shop-the-post-title {
+		background: 0 0;
+    border: none;
+    box-sizing: border-box;
+    color: #6E6E6E;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.lbl-shop-the-post-title-hr {
+		background-color: #fff;
+    border-bottom: 1px solid #6E6E6E;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    box-sizing: content-box;
+    height: 1px;
+    line-height: 1px;
+    margin: 0 0 20px;
+    max-width: none;
+    overflow: visible;
+    padding: 0;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+}
+
+.lbl-shop-the-post-title-hr::after {
+		content: "Shop the Post";
+    color: #6E6E6E;
+    display: inline;
+    background-color: #fff;
+    padding: 0 20px;
+    position: relative;
+}
+
+.lbl-shop-the-post {
+	padding-bottom: 10px;
+}
+
+.lbl-center-it {
+	text-align: center;
+}
+
+@media (min-width: 992px) {
+/* Style search results page (uses search.php in child theme) */
+	#bb-custom-search-result {
+		border: none;
+		width: 100%;
+	}
+
+/* Display image and content side by side and fix desktop 3 featured posts layout DLB 11-23-19 */
+	.lbl-featured-category-post .fl-post-feed-image-beside .fl-post-feed-image img {
+		float: left;
+		margin-right: 10px;
+    width: 100% !important;
+	}
+	
+	.lbl-featured-category-post .fl-post-feed-post.fl-post-feed-image-beside {
+    max-width: 1000px;
+    margin-left: 10px;
+    margin-right: 10px;
+	}	
+
+	
+	.lbl-featured-category-post .fl-post-feed-title {
+		margin-bottom: 0;
+	}	
+	
+	.lbl-featured-category-post .fl-post-feed-image-beside .fl-post-feed-image {
+		margin-bottom: 5px;
+	}
+	
+	.fl-builder-content .fl-node-58b59bf89fbed {
+		width: 100% !important;
+	}
+	
+	.lblee .fl-post-feed-text,
+	.lblee .fl-rich-text {
+		margin: 0 10px 0 10px;
+	}
+	
+	/* Vertically center text on side by side home page 3 featured posts */
+	.lblee .lbl-featured-category-post .fl-post-feed {
+		position: relative;
+	}
+	
+	/* Vertically center text on side by side home page 3 featured posts */
+	.lblee .lbl-featured-category-post .fl-post-feed-text {
+	  position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	}
+	
+}
+
+
+@media screen and (max-width: 768px) {
+	
+	/* Display image and content side by side on mobile */
+	.lbl-featured-category-post .fl-post-feed-image-beside .fl-post-feed-image img {
+		float: left;
+		margin-right: 10px;
+    width: 33% !important;
+	}
+	
+	.lbl-featured-category-post .fl-post-feed-post.fl-post-feed-image-beside {
+    max-width: 340px;
+    margin-left: 10px;
+    margin-right: 10px;
+	}	
+
+	.lbl-featured-category-post .fl-post-feed-title {
+		margin-bottom: 0;
+	}	
+	
+	.lbl-featured-category-post .fl-post-feed-image-beside .fl-post-feed-image {
+		margin-bottom: 5px;
+	}
+	
+	.fl-builder-content .fl-node-58b59bf89fbed {
+		width: 65% !important;
+	}
+	
+	/* Fixed Thumbnail Image Spacing - Home - Mobile - DLB 10-28-19 */
+	.first-top-featured-home .fl-post-feed-image { 
+		margin-bottom:15px; 
+	}
+	
+	.fl-builder-content-18244 {
+		padding: 0px;
+	}
+	
+	/* Hacky Voodoo to remove the nubs (only works for Block Editor) - BMM 11/25/19 */
+	.lblee .wp-block-image img,
+	.lblee .wp-block-embed-youtube,
+	.lblee .boutique-widget {
+		left: 50%;
+		margin-left: -50vw;
+		margin-right: -50vw;
+		max-width: 100vw;
+		position: relative;
+		right: 50%;
+		width: 100vw;
+	}
+	
+	/* Adds margin to text in editor - BMM 11/25/19 */
+	.lblee .fl-post-feed-text,
+	.lblee .fl-rich-text {
+		margin: 0 10px 0 10px;
+	}
+	
+		
+}
+
+
+	/* Change Hyperlink Color - DLB 11-21-19 */
+
+	p a {
+    color: #CE929B !important;
+	}
+
+	/*Make menu Horizontal on Mobile - DLB 9-17-19 */
+
+	/*	.fl-menu ul li {
+  display: inline-block;
+}  */
+
+/*Make Post Thumbnails 100% width on Mobile - DLB 10-28-19 */
+
+	/*	.attachment-full size-full wp-post-image {
+		margin-left: -5px;
+		margin-right: -5px;
+} */
+
+/*Make Post content not 100% wide + Add bold to title - Home - Mobile - DLB 10-28-19 */
+/*
+.first-top-featured-home .fl-post-feed-content {
+		padding-left: 10px;
+		padding-right: 10px;
+}
+
+.first-top-featured-home .fl-post-feed-title {
+		padding-left: 10px;
+		padding-right: 10px;
+}  */
+
+/*Make Post Title not Bold - Post Page - Mobile - DLB 10-28-19 - Not working */
+/*
+	.fl-heading-text {
+		font-weight: normal !important;
+}  */
+
+/*Make Posts word spacing larger - Mobile - DLB 10-28-19 - Not working */
+/*
+	.fl-module-content p{
+		line-height: 2em;
+}  */
